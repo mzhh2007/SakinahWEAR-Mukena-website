@@ -1,0 +1,282 @@
+<!DOCTYPE html> 
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Mukena Adem Premium - Sakinah Wear</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      margin: 0;
+      background: #f0f4f8;
+      color: #333;
+    }
+    .container {
+      max-width: 800px;
+      margin: auto;
+      padding: 20px;
+      background: #fff;
+      box-shadow: 0 0 15px rgba(0,0,0,0.1);
+    }
+    h1 {
+      color: #1e4c74;
+      text-align: center;
+    }
+    .promo {
+      background-color: #dff3fd;
+      padding: 10px;
+      border-left: 5px solid #1e90ff;
+      margin: 20px 0;
+      font-size: 16px;
+    }
+    .gallery {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      justify-content: center;
+    }
+    .gallery img {
+      width: 48%;
+      border-radius: 8px;
+    }
+    .btn {
+      display: block;
+      width: 100%;
+      background: #1e90ff;
+      color: white;
+      padding: 15px;
+      font-size: 18px;
+      text-align: center;
+      text-decoration: none;
+      border-radius: 5px;
+      margin-top: 20px;
+    }
+    .btn:hover {
+      background: #0d6efd;
+    }
+    .info {
+      font-size: 15px;
+      line-height: 1.6;
+    }
+    .description {
+      margin-top: 30px;
+      background: #f9f9f9;
+      padding: 20px;
+      border-radius: 8px;
+    }
+    .description h2 {
+      color: #1e4c74;
+      margin-bottom: 10px;
+    }
+    .price-box {
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      align-items: center;
+      background: #f9f9f9;
+      padding: 15px;
+      border-radius: 8px;
+      margin: 30px 0;
+    }
+    .price-left {
+      text-align: left;
+    }
+    .old-price {
+      text-decoration: line-through;
+      color: #888;
+      font-size: 22px;
+    }
+    .new-price {
+      color: #e63946;
+      font-size: 30px;
+      font-weight: bold;
+    }
+    .discount {
+      display: block;
+      font-size: 18px;
+      color: #1e90ff;
+      margin-top: 8px;
+    }
+    .bank-info {
+      display: flex;
+      align-items: center;
+      background: #eef6fb;
+      padding: 10px;
+      border-radius: 8px;
+      border: 1px solid #c7e2f3;
+      max-width: 320px;
+    }
+    .bank-info img {
+      width: 50px;
+      height: auto;
+      margin-right: 10px;
+    }
+    .bank-details {
+      font-size: 14px;
+      color: #1e4c74;
+      line-height: 1.5;
+    }
+    .copy-btn {
+      margin-top: 5px;
+      background-color: #1e90ff;
+      color: white;
+      border: none;
+      padding: 5px 10px;
+      border-radius: 4px;
+      font-size: 13px;
+      cursor: pointer;
+    }
+    .copy-btn:hover {
+      background-color: #0d6efd;
+    }
+
+    /* PERBAIKAN VARIAN */
+    .variant-gallery-wrapper {
+      overflow-x: auto;
+      padding-bottom: 10px;
+    }
+    .variant-gallery {
+      display: flex;
+      flex-wrap: nowrap;
+      gap: 10px;
+      width: max-content;
+      min-width: 100%;
+    }
+    .variant-item {
+      width: 150px;
+      flex: 0 0 auto;
+      text-align: center;
+    }
+    .variant-item img {
+      width: 100%;
+      border-radius: 8px;
+      height: auto;
+    }
+    .variant-item p {
+      margin-top: 8px;
+      font-weight: 500;
+      color: #333;
+      font-size: 14px;
+    }
+
+    /* Hapus media query yang merusak layout varian */
+    @media (max-width: 768px) {
+      .price-box {
+        flex-direction: column;
+        align-items: flex-start;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Buat ibadahmu lebih nyaman dan lebih fokus</h1>
+
+    <div class="gallery">
+      <img src="https://down-id.img.susercontent.com/file/id-11134207-7r98t-lxs60jozg2e64d@resize_w900_nl.webp" alt="Mukena 1" />
+      <img src="https://down-id.img.susercontent.com/file/id-11134207-7rbkd-m9imzm8vy2vl35@resize_w900_nl.webp" alt="Mukena 2" />
+      <img src="https://down-id.img.susercontent.com/file/id-11134207-7r98u-lxs60jozivj285@resize_w900_nl.webp" alt="Mukena 3" />
+      <img src="https://down-id.img.susercontent.com/file/id-11134207-7r98y-lxs60jozhgym0d@resize_w900_nl.webp" alt="Mukena 4" />
+    </div>
+
+    <div class="description">
+      <h2>🌸 Deskripsi Mukena Adem & Praktis</h2>
+      <p>Temukan kenyamanan maksimal saat beribadah dengan <strong>Mukena Premium Adem Sakinah Wear</strong>!</p>
+      <ul>
+        <li><strong>Bahan adem & ringan</strong></li>
+        <li><strong>Mudah dilipat & tidak makan tempat</strong></li>
+        <li><strong>Dilengkapi tas mukena elegan</strong></li>
+        <li><strong>Warna elegan & kekinian</strong></li>
+        <li><strong>Harga ramah di kantong</strong></li>
+      </ul>
+      <p>Cocok untuk kado atau diri sendiri. Buat ibadahmu lebih khusyuk dan penuh berkah!</p>
+
+      <h2 style="margin-top: 40px; color: #1e4c74;">Varian:Geser Untuk Memilih Varian</h2>
+      <div class="variant-gallery-wrapper">
+        <div class="variant-gallery">
+          <div class="variant-item"><img src="https://down-id.img.susercontent.com/file/id-11134207-7r98z-ly58i6gl7z1k57@resize_w900_nl.webp" alt="Olive" /><p>Olive</p></div>
+          <div class="variant-item"><img src="https://down-id.img.susercontent.com/file/id-11134207-7r98u-lvn78mpnphkp4d@resize_w900_nl.webp" alt="Green" /><p>Green</p></div>
+          <div class="variant-item"><img src="https://down-id.img.susercontent.com/file/id-11134207-7rbkb-m8amzkwxoz1a56@resize_w900_nl.webp" alt="Mocca" /><p>Mocca</p></div>
+          <div class="variant-item"><img src="https://down-id.img.susercontent.com/file/id-11134207-7rbkc-m8amzkwxqdlq95@resize_w900_nl.webp" alt="Mint" /><p>Mint</p></div>
+          <div class="variant-item"><img src="https://down-id.img.susercontent.com/file/id-11134207-7r98u-lxs60jozn38eec@resize_w900_nl.webp" alt="Sage" /><p>Sage</p></div>
+          <div class="variant-item"><img src="https://down-id.img.susercontent.com/file/id-11134207-7rasg-m5vcse0ab29sf1@resize_w900_nl.webp" alt="Hitam" /><p>Hitam</p></div>
+          <div class="variant-item"><img src="https://down-id.img.susercontent.com/file/id-11134207-7rbk5-m8oy1m0746fmfd@resize_w900_nl.webp" alt="Taro Batik" /><p>Taro Batik</p></div>
+          <div class="variant-item"><img src="https://down-id.img.susercontent.com/file/id-11134207-7rash-m5y6nwnve4qq5e@resize_w900_nl.webp" alt="Almond" /><p>Almond</p></div>
+          <div class="variant-item"><img src="https://down-id.img.susercontent.com/file/id-11134207-7rbk9-mar4uxl70tkk7a@resize_w900_nl.webp" alt="Wardah Salur" /><p>Wardah Salur</p></div>
+          <div class="variant-item"><img src="https://down-id.img.susercontent.com/file/id-11134207-7rbkd-m7tht6hhf7whaf@resize_w900_nl.webp" alt="Dark Grey" /><p>Dark Grey</p></div>
+          <div class="variant-item"><img src="https://down-id.img.susercontent.com/file/id-11134207-7r98u-lxs60jozivj285@resize_w900_nl.webp" alt="Ungu Muda" /><p>Ungu Muda</p></div>
+          <div class="variant-item"><img src="https://down-id.img.susercontent.com/file/id-11134207-7rbk3-mar4uxl73mpg84@resize_w900_nl.webp" alt="Nude Salur" /><p>Nude Salur</p></div>
+          <div class="variant-item"><img src="https://down-id.img.susercontent.com/file/id-11134207-7rbk0-matz29kdqo104a@resize_w900_nl.webp" alt="Taro" /><p>taro</p></div>
+          <div class="variant-item"><img src="https://down-id.img.susercontent.com/file/id-11134207-7r98u-lxs60jozivj285@resize_w900_nl.webp" alt="Lavender" /><p>Lavender</p></div>
+          <div class="variant-item"><img src="https://down-id.img.susercontent.com/file/id-11134207-7r98o-lxs60jozohsu20@resize_w900_nl.webp" alt="Sage Cafucino" /><p>Lavender</p></div>
+          <div class="variant-item"><img src="https://down-id.img.susercontent.com/file/id-11134207-7rbk8-m8oy1m071daq86@resize_w900_nl.webp" alt="Khaki Batik" /><p>Khaki Batik</p></div>
+          <div class="variant-item"><img src="https://down-id.img.susercontent.com/file/id-11134207-7rbk8-mar4uxl7285056@resize_w900_nl.webp" alt="Hitam Salur" /><p>Hitam Salur</p></div>
+          <div class="variant-item"><img src="https://down-id.img.susercontent.com/file/id-11134207-7rbk1-m8oy1m072rv6bf@resize_w900_nl.webp" alt="Grey Batik" /><p>Grey Batik</p></div>
+          <div class="variant-item"><img src="https://down-id.img.susercontent.com/file/id-11134207-7rash-m5u2waa1smhf8f@resize_w900_nl.webp" alt="Denim Larisa" /><p>Denim Larisa</p></div>
+          <div class="variant-item"><img src="https://down-id.img.susercontent.com/file/id-11134207-7rbk7-m8oy1m075l029d@resize_w900_nl.webp" alt="Mocca Batik" /><p>Mocca Batik</p></div>
+          <div class="variant-item"><img src="https://down-id.img.susercontent.com/file/id-11134207-7rbka-mar4uxl7519wd1@resize_w900_nl.webp" alt="Olive Salur" /><p>Olive Salur</p></div>
+          <div class="variant-item"><img src="https://down-id.img.susercontent.com/file/id-11134207-7rbk0-m9imzm8vsglta9@resize_w900_nl.webp" alt="Light sage" /><p>Light Sage</p></div>
+          <div class="variant-item"><img src="https://down-id.img.susercontent.com/file/id-11134207-7rbkc-m9imzm8vtv690d@resize_w900_nl.webp" alt="CoarCoal" /><p>Light Sage</p></div>
+          <div class="variant-item"><img src="https://down-id.img.susercontent.com/file/id-11134207-7rbk6-m9imzm8vv9qp50@resize_w900_nl.webp" alt="Amber" /><p>Amber</p></div>
+        </div>
+      </div>
+    </div>
+
+    <div class="promo">Gratis Ongkir + Diskon 40% Hari Ini!</div>
+
+    <div class="info">
+      <p>Mukena adem & lembut di kulit, cocok untuk harian maupun traveling.</p>
+      <ul>
+        <li>Bahan Premium</li>
+        <li>Tas mukena elegan</li>
+        <li>Warna elegan</li>
+        <li>Ukuran all size</li>
+      </ul>
+
+      <div class="price-box">
+        <div class="price-left">
+          <span class="old-price">Rp123.200</span><br />
+          <span class="new-price">Rp73.920</span><br />
+          <span class="discount">(Diskon 40%)</span>
+        </div>
+        <div class="bank-info">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/SeaBank.svg/2560px-SeaBank.svg.png" alt="SeaBank" />
+          <div class="bank-details">
+            <strong>SeaBank</strong><br />
+            <span id="rekening-number">901177623846</span><br />
+            <br />
+            <button class="copy-btn" onclick="copyRekening()">Salin Rekening</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <a class="btn" href="https://wa.me/6283139521407" target="_blank">📲 Pesan Sekarang via WhatsApp</a>
+
+    <div style="text-align: center; margin-top: 20px;">
+      <h4>Pengiriman via Ekspedisi Terpercaya:</h4>
+      <img src="https://www.kargomurah.co.id/wp-content/uploads/2019/09/Cek-Barang-JNE-1.jpg" alt="JNE" style="width: 70px; border-radius: 5px;" />
+      <img src="https://cakapinterview.com/wp-content/uploads/2024/02/Shopee-Express-04-scaled.jpg" alt="Shopee Express" style="width: 70px; border-radius: 5px;" />
+      <img src="https://upload.wikimedia.org/wikipedia/commons/3/35/Logo_J%26T_Merah_Square.jpg" alt="j&t express" style="width: 70px; border-radius: 5px;">
+      <img src="https://www.barantum.com/assets/img/successstory/casestudy/sicepat/sicepat.png" alt="sicepat" style="width: 70px; border-radius: 5px;">
+      <img src="https://media.suara.com/pictures/970x544/2021/05/22/38015-cara-cek-resi-ninja-xpress.jpg" alt="ninja xpress" style="width: 70px; border-radius: 5px;">
+      <img src="https://lokerbumn.com/wp-content/uploads/2024/03/PT-Pos-Indonesia-Persero.jpg" alt="pos indonesia" style="width: 70px; border-radius: 5px;">
+    </div>
+  </div>
+
+  <script>
+    function copyRekening() {
+      const rekening = document.getElementById("rekening-number").innerText;
+      navigator.clipboard.writeText(rekening).then(function () {
+        alert("Nomor rekening berhasil disalin!");
+      }, function () {
+        alert("Gagal menyalin nomor rekening.");
+      });
+    }
+  </script>
+</body>
+</html>
+
+
+
+
